@@ -1,0 +1,33 @@
+/* A responsive web site is a site that's designed to adapt its layout to the viewing environment by using fluid, proportion-based grids, flexible images, and CSS3 media queries.
+
+You put it in whatever different devices you put it into and it should still display, the content should be the same,
+ and the information conveyed should be the same.
+
+The 12-column grid layout, which is the most common and most convenient grid layout there is out there right now. 
+In order to achieve fluid width we actually use percentages to specify the width of each column and different items within the columns as well.
+ We need to tell the devices out there that they should not try to zoom out and try to fit all the contents they can. 
+ Instead they should behave as they are, mobile devices with more narrow screens and smaller screens, 
+ and the way we would tell those devices all of this information is by using this meta tag, the viewport meta tag.
+
+*/
+
+
+
+
+/* First of all, your Bootstrap grid always has to be inside of a container wrapper. 
+There are a couple of choices for that. One, you could use the container class or you could use the container fluid class. 
+The container fluid class stretches your layout the full width of the browser and provides consistent padding around your grid and other content. 
+There's other content that could go into the container, not just the grid. 
+It's just that the grid requires that it should be inside a container wrapper. So that's container-fluid. 
+Regular container class has predetermined fixed width that is still responsive based on the width of the browser. 
+In other words, it has certain width of one break point, a different width at a different break point and so on. 
+Remember that break points are those media range boundaries that we covered in one of the previous lectures.
+The next component of the grid is the row.
+ So the row class creates horizontal groups of columns which means that the columns collapse and interact with each other as a group but independently from columns in another row. 
+ The row class also creates a negative margin, to counteract the padding that the container class sets up. 
+ Now why is that done? Well, each column already has its own padding because we want to visually separate columns from each other. 
+ If negative margin wasn't applied to the row, the padding of the container would then be in addition to the padding of the edge column. 
+ So the content of the column will no longer align nicely with the rest of the content outside of the grid. Now the Bootstrap documentation actually talks about this and explains it.*/
+
+
+ 
