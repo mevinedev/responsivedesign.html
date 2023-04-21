@@ -1,0 +1,41 @@
+/*Media queries allow you to group styles together and target them to devices based on some criteria. For example, you can target a device by its width, its height, or orientation like landscape or portrait. Of course one of the most obvious differences between viewing a website on a desktop browser and your cell phone is the screen size. Remember that using CSS you have the power to produce very different web page layouts from the same HTML./
+/* media query starts with a keyword @media, and then it is followed by a media feature, and followed by curly braces. Within those curly braces you have your styles, it's basically like a style sheet within a style sheet. Each media feature resolves to either true or false. You can have more than one media features combine together using logical operators. */
+
+
+@media (max-width: 1200px) {
+    body{
+
+        margin: 0; 
+        padding: 0;
+        background-color: rgb(178, 32, 134);
+        box-sizing: border-box; 
+    }
+}
+
+/*if TRUE, styles within curly braces apply */
+/* media features can be combined using logical operators eg:*/
+/*
+@media (min-width: 768px) and /* , is used for OR *//* (max-width: 991px){
+    
+    /*for widht within a range */      
+     
+
+
+
+/*media queries can target widht, length, screen, orientation, print etc*/
+
+ 
+@media (min-width: 760px), (max-width:1200px){
+
+
+#interests{
+    width: 80%;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    background-color: cyan;
+    
+      
+  }
+}
+
